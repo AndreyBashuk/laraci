@@ -26,3 +26,9 @@ Route::get('/home', function () {
        'home'
    ];
 });
+
+Route::get('/users', function () {
+  return [
+    'Vasya', 'Petya'
+  ];
+});
