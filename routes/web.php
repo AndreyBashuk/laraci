@@ -20,3 +20,9 @@ Route::get('/todos', function () {
     'hello'
   ];
 });
+
+Route::get('/home', function () {
+   return [
+       'home'
+   ];
+});
